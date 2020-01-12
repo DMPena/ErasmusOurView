@@ -3343,14 +3343,12 @@ h1 {
 		width: 80%;
 		max-width: 68em;
 		margin: 0 auto;
-		padding: 0 2.5em;
 
 	}
 
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .inner {
-				padding: 0 1.25em;
 			}
 
 		}
@@ -3361,14 +3359,72 @@ h1 {
     width: 80%;
     max-width: 68em;
     margin: 0 auto;
-    padding: 0 2.5em;
     text-align:center;
 }
 
+/*@media screen and (max-width: 736px) {
+
+    #wrapper > * > .inner2 {
+        padding: 0 1.25em;
+    }*/
+}
+/* Wrapper 2 */
+
+#wrapper > * > .inner2 {
+    width: 80%;
+    max-width: 68em;
+    margin: 0 auto;
+    text-align: center;
+}
+/*
 @media screen and (max-width: 736px) {
 
     #wrapper > * > .inner2 {
         padding: 0 1.25em;
     }
 }
-      
+
+*/
+
+
+/*TESTE*/
+
+#gallery {
+    text-align: center;
+    margin: 70px auto;
+}
+
+    #gallery img.teste {
+        width: 500px;
+        -webkit-transition-duration: 0.6s; /*Webkit: animation duration*/
+        -moz-transition-duration: 0.6s; /*Mozilla: animation duration*/
+        -o-transition-duration: 0.6s; /*Opera: animation duration*/
+        opacity: 0.6; /*initial opacity of the image*/
+        z-index: 1; /*place non-hover images behind the hover image*/
+        margin: 0; /*remove default margin for images*/
+        position: relative; /*solve the problem with z-index in Chrome*/
+    }
+
+        #gallery img.teste:hover {
+            -webkit-transform: scale( 1.5 ); /*Webkit: increase size to 1.5x*/
+            -moz-transform: scale( 1.5 ); /*Mozilla: scaling*/
+            -o-transform: scale( 1.5 ); /*Opera: scaling*/
+            box-shadow: 0px 0px 25px gray; /*CSS3 shadows: 25px fuzzy shadow around the entire image*/
+            -webkit-box-shadow: 0px 0px 25px gray; /*Webkit: shadows*/
+            -moz-box-shadow: 0px 0px 25px gray; /*Mozilla: shadows*/
+            opacity: 1; /*default opacity*/
+            z-index: 10; /*place hover image in front the non-hover images*/
+        }
+
+@media screen and (max-width: 736px) {
+    #gallery img.teste {
+        width: 300px;
+    }
+        #gallery img.teste:hover {
+            -webkit-transform: scale( 1.25 ); /*Webkit: increase size to 1.5x*/
+            -moz-transform: scale( 1.25 ); /*Mozilla: scaling*/
+            -o-transform: scale( 1.25 ); /*Opera: scaling*/
+
+        }
+}
+   

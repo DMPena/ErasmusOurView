@@ -3399,7 +3399,7 @@ h1 {
         -webkit-transition-duration: 0.6s; /*Webkit: animation duration*/
         -moz-transition-duration: 0.6s; /*Mozilla: animation duration*/
         -o-transition-duration: 0.6s; /*Opera: animation duration*/
-        opacity: 0.6; /*initial opacity of the image*/
+        opacity: 0.9; /*initial opacity of the image*/
         z-index: 1; /*place non-hover images behind the hover image*/
         margin: 0; /*remove default margin for images*/
         position: relative; /*solve the problem with z-index in Chrome*/

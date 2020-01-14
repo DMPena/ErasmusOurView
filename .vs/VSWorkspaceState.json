@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ErasmusOurView"
+    "\\assets",
+    "\\assets\\css"
   ],
-  "SelectedNode": "\\genericdefault.html",
+  "SelectedNode": "\\elements.html",
   "PreviewInSolutionExplorer": false
 }

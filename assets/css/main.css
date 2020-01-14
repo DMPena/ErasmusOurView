@@ -2734,11 +2734,11 @@ h1 {
             }
 
             .tiles article.style3 > .image:before {
-                background-color: #D6FFB7;
+                background-color: rgb(182, 255, 0);
             }
 
             .tiles article.style4 > .image:before {
-                background-color: #D6FFB7;
+                background-color: #7AE7C7;
             }
 
             .tiles article.style5 > .image:before {
